@@ -33,7 +33,11 @@ const item3 = new Item({
   name:"<-- Hit this to delete an item."
 });
 
-const defaultItems = [item1,item2,item3];
+const item4 = new Item({
+  name:"so you can add your own title. for that you have to add your title after end for url link for ex:https://arcane-wildwood-45756.herokuapp.com/<title_name>"
+});
+
+const defaultItems = [item1,item2,item3,item4];
 
 const listSchema = {
   name:String,
